@@ -51,9 +51,7 @@ font-size: 22px;
 .fmalebtn{
     padding:10px 25px;
 }
-.resultContainer{
-    
-}
+
 .heightConatiner{
     display: flex;
     flex-direction: column;
@@ -114,9 +112,7 @@ background-color: #ff786c;
 .active{
     background-color:#1d2c3f;
 }
-
-
-.scrore{
+.score{
 font-size: 6rem;
 margin: 25px 10px 10px 0px;
 }
@@ -124,6 +120,8 @@ margin: 25px 10px 10px 0px;
     display: flex;
     flex-direction:column;
   align-items: center;
+  justify-content: center;
+  display: none; 
 }
 .resultContainer h5{
 color: #F2887E;
@@ -137,7 +135,6 @@ margin: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    display: ;
 }
 #calculateAgain{
     border: none;
